@@ -1,0 +1,100 @@
+Ticker|Company|Industry|Best_Metric|Why
+AAPL|AAPL|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+TSLA|TSLA|Automotive|Altman Z-Score|Default metric for financial health.
+AMZN|AMZN|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+MSFT|MSFT|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+NVDA|NVDA|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+GOOGL|GOOGL|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+META|META|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+NFLX|NFLX|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+JPM|JPM|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+V|V|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+BAC|BAC|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+AMD|AMD|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+PYPL|PYPL|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+DIS|DIS|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+T|T|Telecom|Net Profit Margin|Shows profitability after all expenses.
+PFE|PFE|Pharmaceutical|R&D to Revenue|Indicates investment in innovation.
+COST|COST|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+INTC|INTC|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+KO|KO|Consumer Goods|Gross Margin|Shows profitability of core products.
+TGT|TGT|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+NKE|NKE|Consumer Goods|Gross Margin|Shows profitability of core products.
+SPY|SPY|ETF|Expense Ratio|Measures cost efficiency for ETFs.
+BA|BA|Aerospace|ROIC|Capital efficiency is key in aerospace manufacturing.
+BABA|BABA|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+XOM|XOM|Energy|Debt to Equity|Energy firms often carry high debt; this measures leverage.
+WMT|WMT|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+GE|GE|Aerospace|ROIC|Capital efficiency is key in aerospace manufacturing.
+CSCO|CSCO|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+VZ|VZ|Telecom|Net Profit Margin|Shows profitability after all expenses.
+JNJ|JNJ|Healthcare|Operating Margin|Indicates efficiency in managing healthcare operations.
+CVX|CVX|Energy|Debt to Equity|Energy firms often carry high debt; this measures leverage.
+PLTR|PLTR|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+SQ|SQ|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+SHOP|SHOP|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+SBUX|SBUX|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+SOFI|SOFI|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+HOOD|HOOD|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+RBLX|RBLX|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+SNAP|SNAP|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+AMD|AMD|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+UBER|UBER|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+FDX|FDX|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+ABBV|ABBV|Pharmaceutical|R&D to Revenue|Indicates investment in innovation.
+ETSY|ETSY|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+MRNA|MRNA|Pharmaceutical|R&D to Revenue|Indicates investment in innovation.
+LMT|LMT|Aerospace|ROIC|Capital efficiency is key in aerospace manufacturing.
+GM|GM|Automotive|Altman Z-Score|Default metric for financial health.
+F|F|Automotive|Altman Z-Score|Default metric for financial health.
+RIVN|RIVN|Automotive|Altman Z-Score|Default metric for financial health.
+LCID|LCID|Automotive|Altman Z-Score|Default metric for financial health.
+CCL|CCL|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+DAL|DAL|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+UAL|UAL|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+AAL|AAL|Transportation|Altman Z-Score|Useful for assessing bankruptcy risk in capital-intensive sectors.
+TSM|TSM|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+SONY|SONY|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+ET|ET|Energy|Debt to Equity|Energy firms often carry high debt; this measures leverage.
+NOK|NOK|Telecom|Net Profit Margin|Shows profitability after all expenses.
+MRO|MRO|Energy|Debt to Equity|Energy firms often carry high debt; this measures leverage.
+COIN|COIN|Cryptocurrency|Market Cap to Revenue|Used for speculative and emerging sectors.
+RIVN|RIVN|Automotive|Altman Z-Score|Default metric for financial health.
+SIRI|SIRI|Media|Operating Cash Flow|Shows ability to generate cash from operations.
+SOFI|SOFI|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+RIOT|RIOT|Cryptocurrency|Market Cap to Revenue|Used for speculative and emerging sectors.
+CPRX|CPRX|Pharmaceutical|R&D to Revenue|Indicates investment in innovation.
+PYPL|PYPL|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+TGT|TGT|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+VWO|VWO|ETF|Expense Ratio|Measures cost efficiency for ETFs.
+SPYG|SPYG|ETF|Expense Ratio|Measures cost efficiency for ETFs.
+NOK|NOK|Telecom|Net Profit Margin|Shows profitability after all expenses.
+ROKU|ROKU|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+HOOD|HOOD|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+VIAC|VIAC|Media|Operating Cash Flow|Shows ability to generate cash from operations.
+ATVI|ATVI|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+BIDU|BIDU|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+DOCU|DOCU|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+ZM|ZM|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+PINS|PINS|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+TLRY|TLRY|Pharmaceutical|R&D to Revenue|Indicates investment in innovation.
+WBA|WBA|Retail|Inventory Turnover|Retail relies on efficient inventory management.
+VIAC|VIAC|Media|Operating Cash Flow|Shows ability to generate cash from operations.
+MGM|MGM|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+NFLX|NFLX|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+NIO|NIO|Automotive|Altman Z-Score|Default metric for financial health.
+C|C|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+GS|GS|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+WFC|WFC|Financial|Return on Equity|Measures profitability relative to shareholder equity.
+ADBE|ADBE|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+PEP|PEP|Consumer Goods|Gross Margin|Shows profitability of core products.
+UNH|UNH|Healthcare|Operating Margin|Indicates efficiency in managing healthcare operations.
+CARR|CARR|Consumer Goods|Gross Margin|Shows profitability of core products.
+FUBO|FUBO|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+HCA|HCA|Healthcare|Operating Margin|Indicates efficiency in managing healthcare operations.
+TWTR|TWTR|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
+BILI|BILI|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+SIRI|SIRI|Media|Operating Cash Flow|Shows ability to generate cash from operations.
+VIAC|VIAC|Media|Operating Cash Flow|Shows ability to generate cash from operations.
+FUBO|FUBO|Entertainment|EBITDA Margin|Reflects profitability before interest, taxes, depreciation, and amortization.
+RKT|RKT|Financial|Return on Equity|Measures profitability relative to shareholder equity.
