@@ -1,10 +1,14 @@
 from dotenv import load_dotenv
 import os
+from src.db.db_setup import initialize_db
 from src.api.fetch_data import get_balance_sheet, get_income_statement, get_market_cap
 from src.analysis.financial_health import calculate_altman_z_score, get_z_score_zone
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Initialize the database
+initialize_db()
 
 if __name__ == "__main__":
     ticker = input("Enter the stock ticker symbol (e.g., AAPL): ").upper()

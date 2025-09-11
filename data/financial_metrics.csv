@@ -1,4 +1,4 @@
-Ticker|Company|Industry|Best_Metric|Why
+ticker|company|industry|best_metric|why
 AAPL|AAPL|Technology|Free Cash Flow|Tech companies are asset-light and generate high cash flow.
 TSLA|TSLA|Automotive|Altman Z-Score|Default metric for financial health.
 AMZN|AMZN|Retail|Inventory Turnover|Retail relies on efficient inventory management.

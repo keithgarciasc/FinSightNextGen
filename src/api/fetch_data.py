@@ -27,8 +27,8 @@ def get_balance_sheet(ticker, api_key):
             print(df.head())
 
             # Save DataFrame to CSV with headers
-            df.to_csv(output_file, index=False, header=True)
-            print(f"\n CSV file saved to: {output_file}")
+            #df.to_csv(output_file, index=False, header=True)
+            #print(f"\n CSV file saved to: {output_file}")
 
             return df
         else:
@@ -56,8 +56,8 @@ def get_income_statement(ticker, api_key):
             print(df.head())
 
             # Save DataFrame to CSV with headers
-            df.to_csv(output_file, index=False, header=True)
-            print(f"\n CSV file saved to: {output_file}")
+            #df.to_csv(output_file, index=False, header=True)
+            #print(f"\n CSV file saved to: {output_file}")
 
             return df
         else:
