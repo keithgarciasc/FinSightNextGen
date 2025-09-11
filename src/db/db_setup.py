@@ -11,8 +11,8 @@ def initialize_db():
     db_path = project_root / 'src' / 'db' / 'database.db'
     csv_path = project_root / 'data' / 'financial_metrics.csv'
 
-    print(f"Project root detected as: {project_root}")
-    print(f"Connecting to database at: {db_path}")
+    #print(f"Project root detected as: {project_root}")
+    #print(f"Connecting to database at: {db_path}")
     try:
         conn = sqlite3.connect(db_path)
     except sqlite3.OperationalError as e:
@@ -21,7 +21,7 @@ def initialize_db():
 
     cursor = conn.cursor()
 
-    print("Creating table 'financial_metrics' if it doesn't exist...")
+    #print("Creating table 'financial_metrics' if it doesn't exist...")
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS financial_metrics (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -33,10 +33,10 @@ def initialize_db():
         )
     ''')
 
-    print("Checking if table is empty...")
+    #print("Checking if table is empty...")
     cursor.execute('SELECT COUNT(*) FROM financial_metrics')
     count = cursor.fetchone()[0]
-    print(f"Row count in 'financial_metrics': {count}")
+    #print(f"Row count in 'financial_metrics': {count}")
 
     if count == 0:
         print("Table is empty.")
@@ -58,8 +58,9 @@ def initialize_db():
         else:
             print(f"CSV file not found at: {csv_path}")
     else:
-        print("Table is not empty. Skipping CSV load.")
+        return
+       # print("Table is not empty. Skipping CSV load.")
 
     conn.commit()
     conn.close()
-    print("Database connection closed.")
+    #print("Database connection closed.")

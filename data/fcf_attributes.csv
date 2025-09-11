@@ -1,0 +1,8 @@
+Financial Statement|Attribute|Why It's Needed
+Cash Flow Statement|Operating Cash Flow|Core cash generated from business operations; starting point for direct FCF.
+Cash Flow Statement|Capital Expenditures (CapEx)|Cash spent on long-term assets; subtracted from operating cash flow to get FCF.
+Income Statement|Net Income|Used in the indirect method when Operating Cash Flow isn’t directly available.
+Income Statement|Depreciation & Amortization|Non-cash expenses added back in the indirect method.
+Balance Sheet|Change in Working Capital|Adjusts for short-term asset/liability changes in the indirect method.
+Cash Flow Statement|Stock-Based Compensation|Often added back in tech firms; non-cash expense that affects cash flow.
+Cash Flow Statement|Deferred Taxes|Sometimes included in indirect method adjustments.

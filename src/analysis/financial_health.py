@@ -51,7 +51,7 @@ def calculate_altman_z_score(balance_sheet: pd.DataFrame, income_statement: pd.D
             "market_value_equity": [market_value_equity],
         }
         df = pd.DataFrame(data)
-        df.to_csv(output_file, index=False)
+        #df.to_csv(output_file, index=False)
 
         # Altman Z-score formula
         z_score = 1.2 * A + 1.4 * B + 3.3 * C + 0.6 * D + 1.0 * E
@@ -66,3 +66,42 @@ def get_z_score_zone(z_score: float):
         if info["min"] < z_score <= info["max"]:
             return zone, info["description"]
     return "Unknown", "No description available."
+
+def calculate_free_cash_flow(cash_flow_statement: pd.DataFrame) -> float:
+    try:
+        # Extract required values
+        operating_cash_flow = cash_flow_statement.loc[0, 'operatingCashFlow']
+        capital_expenditures = cash_flow_statement.loc[0, 'capitalExpenditure']
+
+        # Free Cash Flow components
+        ocf = operating_cash_flow
+        capex = capital_expenditures
+
+        # Free cash flow formula
+        fcf = ocf - capex
+        return round(fcf, 2)
+    
+    except Exception as e:
+        print(f"Error calculating Free Cash Flow: {e}")
+        return None
+
+def fcf_to_debt_category(fcf: float, total_debt: float) -> str:
+    try:
+        ratio = (fcf / total_debt) * 100
+        if ratio <= 0:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: Company has no free cash flow or is negative; can't cover any debt.\nFinancial Health: Very risky"
+        elif ratio <= 25:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: FCF covers only a small portion of debt; likely needs external funding.\nFinancial Health: Weak"
+        elif ratio <= 50:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: FCF covers half or less of debt; manageable but still leveraged.\nFinancial Health: Moderate risk"
+        elif ratio <= 75:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: FCF covers most of debt; company is improving its debt position.\nFinancial Health: Fair"
+        elif ratio <= 100:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: FCF nearly covers all debt; strong ability to pay off obligations.\nFinancial Health: Strong"
+        else:
+            return f"FCF-to-Debt Ratio: {ratio:.2f}%\nMeaning: FCF exceeds total debt; company could pay off all debt in one year.\nFinancial Health: Excellent"
+
+    except ZeroDivisionError:
+        return "Error: Total debt cannot be zero."
+    except Exception as e:
+        return f"Error: {e}"
